@@ -1,0 +1,19 @@
+What is React?
+Frontend - Whatever you see on the browser that will known as Frontend. People also call it as Client side, 
+so both are same you can either call client side or Frontend.
+
+So, React is one of the library that helps you to build Frontend or Frontend to your application.
+
+React is javascript library to build user interfaces.
+
+User interface- whatever you see on the browser that is known as UI. You are providing something to the user to 
+interact with application. So react helps you to build those UIs.
+
+library- What is library, it has just one thing to perform. library comes with nothing just one purpose.
+
+framework- what is framework, it is whole package of something or packages of libraries. framework has everything
+which you need while building an application. framework comes with everything but some framework allows you to
+install libraries along with this and some doesnt.
+
+So react is library which helps you to build only user interface. If you want to add some other interaction, 
+animation and routers you have to install some other libraries.

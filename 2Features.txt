@@ -1,0 +1,52 @@
+What is features of react?
+Why do we need react
+
+1. Components
+2. JSX
+3. One way data binding
+4. Virtual DOM
+5. Performance
+
+1. Components- Components nothing but individual pieces, like a bricks you assembel the brick to build a building.
+You develop each Component separately and bring it together to form in application. So you will building lot of 
+Components in React.
+
+2.JSX- Javascript XML
+XML is also standard data fromat like json. So react use XML but also add power to it which is javascript.
+So JSX stands for javascript and XML. You can combine the power of xml as well as javascript to build your react 
+application. XML is also like html but thing is that you can create your own tag. So react levareage that power
+as well as javascript power to perform syntax known as jsx. You will use javascript and html but along with this 
+you will use xml. And It has extention of xml using javascript.
+
+3. One way data binding- one way means single path and data binding means you can imagine as compiling means it
+happen in just one line top to bottom compiles everything and build your application.
+
+*Frontend is fancy word for DOM manipulation. It is related to the next thing that we will discuss.
+*React simplifes DOM manipulation - moto that you can having tasks done without even touching the DOM
+-React helps you with the Virtual DOM
+
+4. Virtual DOM-
+* First of all what is DOM- Document Object Model which is javascript object represent of html or your website.
+* Let suppose you have original dom that is always responsible to build your website. but react moto is not allows
+to touch the original dom but get your task done, cause react know the actually we hate the dom. So make users 
+happy react came with the concept of virtual dom.
+* Virtual Dom also has the same thing, connections, parent-child elements as original dom. They have same thing as
+copy mirror. When you update something on dom virtual dom will get update too.
+* React provided with you the features that original dom doesnt support, so react has Performance and Optimization.
+So original dom doesnt support this feature that is why react came with virtual dom that will support this features
+which helps developer to easily build web application.
+So react does it copies virtual dom content and update the original dom.
+* Whenever you uses new features in virtual dom react recognized that and updates it to the original dom.
+As developer we are to lazy to take care of somethings so react is the intelligent one that take care of Performance 
+and Optimization while updating the original dom.
+
+Interview Ques-
+* What is reconciliation? - The process of searching for virtual dom and then update original dom it is known as
+reconciliation.
+
+The algorithm React uses to find the diffrent between one tree with another to determine which parts need to 
+be changed. reconciliation not changed all the update to the original dom, it just update the part that was 
+changed on virtual dom.
+
+*which is a new react engines that it uses? -
+Fiber

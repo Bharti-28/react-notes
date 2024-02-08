@@ -1,0 +1,90 @@
+Who is the founder of React?
+Jordan Walke
+React was created by Jordan Walke, a software engineer at Meta, who released an early prototype of React
+called "FaxJS". He was influenced by XHP, an HTML component library for PHP.
+
+When invented?
+React.JS History -
+Initial Release to the Public (V0.3.0) was in July 2013. React.JS was first used in 2011 for Facebook's 
+Newsfeed feature. Facebook Software Engineer, Jordan Walke, created it. Current version of create-react-app 
+is v5.0.1 (April 2022).
+
+React and React native -
+React is used to make web application and react native is using to make mobile application
+including ios and android mobile application.
+In react native also you can write the code at once and export it for both ios and android system cause its needs
+same code but the only diff. is comiplers are same like web application needs desktop compilers and mobile 
+application needs mobiles comiplers.
+
+Few years back Class was the only way to build an react application. Instead of that in updation we uses functions.
+functions provides more performance that class and make code also more simplifies.
+
+How to download react?
+1. Go to official website -> reactjs.org
+
+2. Go to create new react app ->
+React has diff. ways to create react app ->
+create react app (command) - by Facebook - use bootstrap framework 
+next.js - created vercel with using next.js - amazing framework - next of react
+gatsby - one of the app that uses react
+there are also more flexibles toolchains like above
+
+3. Go to your terminal/cmd -> go to your desktop (where you wanna create react app/folder)
+run -> npx create-react-app my-app (command)
+hit enter -> it will install everything
+
+npx - nothing but something that helps you to install that libraries needs the permission from administrator 
+for your application or system. Create react app needs this permission and npx helps you to give that.
+
+my app - it is nothing but folder name, you can change it 
+
+4. if we will got the error to install only then use -> run ->
+npm i -g create-react-app (command)
+after that -> run ->
+npx npx create-react-app my-app
+
+5. after installing -> run ->
+cd my-app (go to created react folder)-> run ->
+code . (vs code will open up with this comman)
+
+Let check folder and keep only what you need for creating react app-
+
+1. In package.json-
+We have dependencies like testing libraries that we dont need but they are preinstall with react.
+we will find react, react-dom(virtual dom), react scripts(for perform reconciliation) installed in react.
+web vitals are also there that is like agent that will give you like details of the performance.
+
+There are also scripts like-
+start- start your application - for developing you will using start, when you have done development you can build
+build- build your application - for pushing on production you will use build
+test - test your application - for testing you should have testing libraries setup first only then you can test
+eject - right now your react app being maintain with owner facebook with all the scripts react has so Whenever
+you will get updation react will updated but if you eject it your are just isolating from that, it will mean
+that you dont want their updates anymore and you wanna be separate from that. After ejecting you will get new 
+folder called eject and you cannot revort again. Once it ejected you can go back, youre not even associate with
+react anymore. It will building your own version of app, that you wont get react updates. So always do not eject.
+Cause reacts releases new updates and you wont able to get that updates.
+
+2.README.md file-
+You will have npm here so will get package-lock.json file separately. And this contents all the libraries that
+we are using, and imp do not touch this file cause one single update can cause your application to break.
+
+3. .gitignore file-
+this file ignore unwanted and big files here to push on github. create-rect-app also setup git intialization for
+you and rest of the things we have to set up.
+
+4. index.html -
+If you go inside it will says that this file is template if you open it in browser you will see an empty page.
+If i add some content to it, I'll get it so why it says that it will empty cause you directly input the element 
+to it to perform cause it will only work if you directly import to it but what about dynamic elements that you
+write in your virtual dom. but html tracks it into original dom so it showing content and if you work with 
+virtual dom it will show nothing.
+So build when you build the react application it will accessible in that html file.
+
+How react app start/ how we can run react app-
+type command -> npm start
+It will get start on the localhost ->
+If you want to stop this application enter ctrl+c in terminal 
+
+
+
